@@ -78,7 +78,7 @@ function fetchBookmarks() {
 		bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
 	} else {
 		// Create bookmarks object in localStorage
-		const id = `http://jacinto.design`
+		const id = `http://upwork.com`
 		bookmarks[id] = {
 			name: 'Upwork',
 			url: 'https://upwork.com',
